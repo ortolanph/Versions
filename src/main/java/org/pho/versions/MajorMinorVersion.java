@@ -79,21 +79,17 @@ public class MajorMinorVersion implements Comparable<MajorMinorVersion> {
 
     @Override
     public int compareTo(MajorMinorVersion other) {
-        String thisVersion = toString();
-        String otherVersion = other.toString();
+        int majorCheck = major - other.major;
+        int minorCheck = minor - other.minor;
 
-        return thisVersion.compareTo(otherVersion);
-//        int majorCheck = major - other.major;
-//        int minorCheck = minor - other.minor;
-//
-//        if(majorCheck == 0) {
-//            if(minorCheck == 0) {
-//                return 0;
-//            } else {
-//                return minorCheck;
-//            }
-//        } else {
-//            return majorCheck;
-//        }
+        if(majorCheck == 0) {
+            if(minorCheck == 0) {
+                return 0;
+            } else {
+                return minorCheck;
+            }
+        } else {
+            return majorCheck;
+        }
     }
 }

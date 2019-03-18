@@ -18,4 +18,23 @@ public class MajorMinorBugfixVersion {
         this.bugfix = bugfix;
     }
 
+    public static MajorMinorBugfixVersion newVersion() {
+        return new MajorMinorBugfixVersion(DEFAULT_INITIAL_MAJOR, DEFAULT_INITIAL_MINOR, DEFAULT_INITIAL_BUGFIX);
+    }
+
+    public static MajorMinorBugfixVersion newVersion(int major) {
+        return null;
+    }
+
+    public static MajorMinorBugfixVersion newVersion(int major, int minor, int bugfix) {
+        return null;
+    }
+
+    public static MajorMinorBugfixVersion parseFromText(String version) {
+        return null;
+    }
+
+    public static MajorMinorBugfixVersion newMajorFromVersion(MajorMinorBugfixVersion version) {
+        return null;
+    }
 }

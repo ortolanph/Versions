@@ -211,8 +211,8 @@ class MajorMinorVersionTest {
                 MajorMinorVersion.newVersion(3, 11),
                 MajorMinorVersion.newVersion(4),
                 MajorMinorVersion.newVersion(5, 2),
-                MajorMinorVersion.newVersion(6,5),
                 MajorMinorVersion.newVersion(6,3),
+                MajorMinorVersion.newVersion(6,5),
                 MajorMinorVersion.newVersion(7),
                 MajorMinorVersion.newVersion(7, 9),
         };

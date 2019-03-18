@@ -1,7 +1,7 @@
 ## Idea files
 
-./idea/**
+./idea/*
 
 ## Maven files
 
-target/**
+target/*
