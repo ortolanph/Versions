@@ -89,7 +89,15 @@ public class MajorMinorBugfixVersion implements Comparable<MajorMinorBugfixVersi
     }
 
     @Override
-    public int compareTo(MajorMinorBugfixVersion o) {
-        return 0;
+    public int compareTo(MajorMinorBugfixVersion other) {
+        int majorCheck = major - other.major;
+        int minorCheck = minor - other.minor;
+        int bugfixCheck = bugfix - other.bugfix;
+
+        return (majorCheck == 0) ?
+                (minorCheck == 0) ?
+                        (bugfixCheck == 0) ? 0 : bugfixCheck
+                        : minorCheck
+                : majorCheck;
     }
 }

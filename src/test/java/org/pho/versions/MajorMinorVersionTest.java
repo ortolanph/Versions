@@ -9,18 +9,18 @@ import java.util.stream.Collectors;
 
 class MajorMinorVersionTest {
 
-    private static final MajorMinorVersion[] VERSION_LIST = new MajorMinorVersion[] {
+    private static final MajorMinorVersion[] VERSION_LIST = new MajorMinorVersion[]{
             MajorMinorVersion.newVersion(1, 0),
             MajorMinorVersion.newVersion(2, 2),
             MajorMinorVersion.newVersion(7, 9),
             MajorMinorVersion.newVersion(2),
             MajorMinorVersion.newVersion(7),
-            MajorMinorVersion.newVersion(6,5),
-            MajorMinorVersion.newVersion(6,3),
+            MajorMinorVersion.newVersion(6, 5),
+            MajorMinorVersion.newVersion(6, 3),
             MajorMinorVersion.newVersion(5, 2),
             MajorMinorVersion.newVersion(4),
             MajorMinorVersion.newVersion(3, 11)
-            };
+    };
 
     @Test
     public void shouldCreateMajorMinorVersionDefault() {
@@ -50,7 +50,7 @@ class MajorMinorVersionTest {
 
     @Test
     public void shouldCompleteCreateMajorMinorVersion() {
-        MajorMinorVersion actual = MajorMinorVersion.newVersion(1,2);
+        MajorMinorVersion actual = MajorMinorVersion.newVersion(1, 2);
 
         int expectedMajor = 1;
         int expectedMinor = 2;
@@ -76,17 +76,17 @@ class MajorMinorVersionTest {
 
     @Test
     public void shouldNotParseVersionWithLetters() {
-        Assertions.assertThrows(Exception.class, () ->MajorMinorVersion.parseFromText("7.a"));
+        Assertions.assertThrows(Exception.class, () -> MajorMinorVersion.parseFromText("7.a"));
     }
 
     @Test
     public void shouldNotParseVersionWithMajorOnly() {
-        Assertions.assertThrows(Exception.class, () ->MajorMinorVersion.parseFromText("7"));
+        Assertions.assertThrows(Exception.class, () -> MajorMinorVersion.parseFromText("7"));
     }
 
     @Test
     public void shouldNotParseVersionWithMinorOnly() {
-        Assertions.assertThrows(Exception.class, () ->MajorMinorVersion.parseFromText(".3"));
+        Assertions.assertThrows(Exception.class, () -> MajorMinorVersion.parseFromText(".3"));
     }
 
     @Test
@@ -181,38 +181,16 @@ class MajorMinorVersionTest {
     }
 
     @Test
-    private void shouldBeEquals() {
-        MajorMinorVersion version1 = MajorMinorVersion.newVersion(1, 0);
-        MajorMinorVersion version2 = MajorMinorVersion.newVersion(1, 0);
-
-        Assertions.assertTrue(version1.equals(version2));
-    }
-
-    @Test
-    public void hashTest() {
-        int actual = MajorMinorVersion.newVersion(1, 0).hashCode();
-        int expected = 992;
-        Assertions.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void versionStringRepresentation() {
-        String actual = MajorMinorVersion.newVersion(1, 0).toString();
-        String expected = "1.0";
-        Assertions.assertEquals(expected, actual);
-    }
-
-    @Test
     public void listsShouldBeEquals() {
-        MajorMinorVersion[] orderedVersionList = new MajorMinorVersion[] {
+        MajorMinorVersion[] orderedVersionList = new MajorMinorVersion[]{
                 MajorMinorVersion.newVersion(1, 0),
                 MajorMinorVersion.newVersion(2),
                 MajorMinorVersion.newVersion(2, 2),
                 MajorMinorVersion.newVersion(3, 11),
                 MajorMinorVersion.newVersion(4),
                 MajorMinorVersion.newVersion(5, 2),
-                MajorMinorVersion.newVersion(6,3),
-                MajorMinorVersion.newVersion(6,5),
+                MajorMinorVersion.newVersion(6, 3),
+                MajorMinorVersion.newVersion(6, 5),
                 MajorMinorVersion.newVersion(7),
                 MajorMinorVersion.newVersion(7, 9),
         };
