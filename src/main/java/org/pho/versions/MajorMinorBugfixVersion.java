@@ -1,6 +1,8 @@
 package org.pho.versions;
 
-public class MajorMinorBugfixVersion {
+import java.util.Objects;
+
+public class MajorMinorBugfixVersion implements Comparable<MajorMinorBugfixVersion> {
 
     public static final String VERSION_SEPARATOR = ".";
     private static final int DEFAULT_INITIAL_MAJOR = 0;
@@ -23,18 +25,71 @@ public class MajorMinorBugfixVersion {
     }
 
     public static MajorMinorBugfixVersion newVersion(int major) {
-        return null;
+        return new MajorMinorBugfixVersion(major, DEFAULT_INITIAL_MINOR, DEFAULT_INITIAL_BUGFIX);
+    }
+
+    public static MajorMinorBugfixVersion newVersion(int major, int minor) {
+        return new MajorMinorBugfixVersion(major, minor, DEFAULT_INITIAL_BUGFIX);
     }
 
     public static MajorMinorBugfixVersion newVersion(int major, int minor, int bugfix) {
-        return null;
+        return new MajorMinorBugfixVersion(major, minor, bugfix);
     }
 
     public static MajorMinorBugfixVersion parseFromText(String version) {
-        return null;
+        String[] versionInfo = version.split("\\.");
+
+        return newVersion(Integer.valueOf(versionInfo[0]),
+                Integer.valueOf(versionInfo[1]),
+                Integer.valueOf(versionInfo[2]));
     }
 
     public static MajorMinorBugfixVersion newMajorFromVersion(MajorMinorBugfixVersion version) {
-        return null;
+        return newVersion(version.major + 1, DEFAULT_INITIAL_MINOR, DEFAULT_INITIAL_BUGFIX);
+    }
+
+    public static MajorMinorBugfixVersion newMinorFromVersion(MajorMinorBugfixVersion version) {
+        return newVersion(version.major, version.minor + 1, DEFAULT_INITIAL_BUGFIX);
+    }
+
+    public static MajorMinorBugfixVersion newBugfixFromVersion(MajorMinorBugfixVersion version) {
+        return newVersion(version.major, version.minor, version.bugfix + 1);
+    }
+
+    public int getMajor() {
+        return major;
+    }
+
+    public int getMinor() {
+        return minor;
+    }
+
+    public int getBugfix() {
+        return bugfix;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        MajorMinorBugfixVersion that = (MajorMinorBugfixVersion) o;
+        return major == that.major &&
+                minor == that.minor &&
+                bugfix == that.bugfix;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(major, minor, bugfix);
+    }
+
+    @Override
+    public String toString() {
+        return String.format(VERSION_TEMPLATE, major, minor, bugfix);
+    }
+
+    @Override
+    public int compareTo(MajorMinorBugfixVersion o) {
+        return 0;
     }
 }

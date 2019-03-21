@@ -26,7 +26,7 @@ class MajorMinorVersionTest {
     public void shouldCreateMajorMinorVersionDefault() {
         MajorMinorVersion actual = MajorMinorVersion.newVersion();
 
-        final int expectedMajor = 0;
+        int expectedMajor = 0;
         int expectedMinor = 0;
 
         Assertions.assertAll(

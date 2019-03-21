@@ -30,10 +30,10 @@ public class MajorMinorVersion implements Comparable<MajorMinorVersion> {
     }
 
     public static MajorMinorVersion parseFromText(String version) {
-        int major = Integer.valueOf(version.substring(0, version.indexOf(VERSION_SEPARATOR)));
-        int minor = Integer.valueOf(version.substring(version.indexOf(VERSION_SEPARATOR) + 1));
+        String[] versionInfo = version.split("\\.");
 
-        return newVersion(major, minor);
+        return newVersion(Integer.valueOf(versionInfo[0]),
+                Integer.valueOf(versionInfo[1]));
     }
 
     public static MajorMinorVersion newMinorFromVersion(MajorMinorVersion oldVersion) {

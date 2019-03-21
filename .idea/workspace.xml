@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a44375b9-2a00-451c-81e5-0f20bfa63cf4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/pho/versions/MajorMinorBugfixVersionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/pho/versions/MajorMinorBugfixVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pho/versions/MajorMinorBugfixVersion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/pho/versions/MajorMinorVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pho/versions/MajorMinorVersion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/pho/versions/MajorMinorVersionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/pho/versions/MajorMinorVersionTest.java" afterDir="false" />
@@ -23,32 +24,30 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="209" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Versions" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/pho/versions/MajorMinorBugfixVersion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
               <folding>
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#972#973#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-                <element signature="e#1208#1209#0" expanded="true" />
+                <element signature="e#1542#1543#0" expanded="true" />
+                <element signature="e#1570#1571#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1703#1704#0" expanded="true" />
+                <element signature="e#1986#1987#0" expanded="true" />
+                <element signature="e#2043#2044#0" expanded="true" />
+                <element signature="e#2089#2090#0" expanded="true" />
+                <element signature="e#2127#2128#0" expanded="true" />
+                <element signature="e#2281#2282#0" expanded="true" />
+                <element signature="e#2305#2306#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -56,11 +55,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/pho/versions/MajorMinorVersion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="-34">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/pho/versions/MajorMinorBugfixVersionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="139" column="63" lean-forward="true" selection-start-line="139" selection-start-column="63" selection-end-line="139" selection-end-column="63" />
               <folding>
-                <element signature="e#2191#2192#0" expanded="true" />
-                <element signature="e#2259#2260#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +78,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -83,10 +90,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/org/pho/versions/MajorMinorVersionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/pho/versions/MajorMinorVersion.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/pho/versions/MajorMinorBugfixVersionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/pho/versions/MajorMinorBugfixVersion.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -98,9 +106,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="506" />
+    <option name="y" value="231" />
+    <option name="width" value="785" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -108,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,11 +156,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552927880028" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553176016447" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PPKPRobotFight" />
@@ -178,7 +187,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MajorMinorVersionTest">
+  <component name="RunManager" selected="JUnit.MajorMinorBugfixVersionTest.newBugfixFromVersion">
+    <configuration name="MajorMinorBugfixVersionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Versions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pho.versions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.pho.versions" />
+      <option name="MAIN_CLASS_NAME" value="org.pho.versions.MajorMinorBugfixVersionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorMinorBugfixVersionTest.newBugfixFromVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Versions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pho.versions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.pho.versions" />
+      <option name="MAIN_CLASS_NAME" value="org.pho.versions.MajorMinorBugfixVersionTest" />
+      <option name="METHOD_NAME" value="newBugfixFromVersion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorMinorBugfixVersionTest.newMajorFromVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Versions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pho.versions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.pho.versions" />
+      <option name="MAIN_CLASS_NAME" value="org.pho.versions.MajorMinorBugfixVersionTest" />
+      <option name="METHOD_NAME" value="newMajorFromVersion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorMinorBugfixVersionTest.newMinrFromVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Versions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pho.versions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.pho.versions" />
+      <option name="MAIN_CLASS_NAME" value="org.pho.versions.MajorMinorBugfixVersionTest" />
+      <option name="METHOD_NAME" value="newMinrFromVersion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MajorMinorVersionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Versions" />
       <extension name="coverage">
@@ -194,77 +266,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorMinorVersionTest.listsShouldBeEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Versions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pho.versions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.pho.versions" />
-      <option name="MAIN_CLASS_NAME" value="org.pho.versions.MajorMinorVersionTest" />
-      <option name="METHOD_NAME" value="listsShouldBeEquals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorMinorVersionTest.shouldCreateMajorMinorVersionDefault" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Versions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pho.versions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.pho.versions" />
-      <option name="MAIN_CLASS_NAME" value="org.pho.versions.MajorMinorVersionTest" />
-      <option name="METHOD_NAME" value="shouldCreateMajorMinorVersionDefault" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorMinorVersionTest.shouldCreateMajorMinorVersionWithoutMinor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Versions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pho.versions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.pho.versions" />
-      <option name="MAIN_CLASS_NAME" value="org.pho.versions.MajorMinorVersionTest" />
-      <option name="METHOD_NAME" value="shouldCreateMajorMinorVersionWithoutMinor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorMinorVersionTest.versionsShouldBeTheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Versions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pho.versions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.pho.versions" />
-      <option name="MAIN_CLASS_NAME" value="org.pho.versions.MajorMinorVersionTest" />
-      <option name="METHOD_NAME" value="versionsShouldBeTheSame" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MajorMinorBugfixVersionTest.newBugfixFromVersion" />
+        <item itemvalue="JUnit.MajorMinorBugfixVersionTest.newMinrFromVersion" />
+        <item itemvalue="JUnit.MajorMinorBugfixVersionTest.newMajorFromVersion" />
+        <item itemvalue="JUnit.MajorMinorBugfixVersionTest" />
         <item itemvalue="JUnit.MajorMinorVersionTest" />
-        <item itemvalue="JUnit.MajorMinorVersionTest.listsShouldBeEquals" />
-        <item itemvalue="JUnit.MajorMinorVersionTest.versionsShouldBeTheSame" />
-        <item itemvalue="JUnit.MajorMinorVersionTest.shouldCreateMajorMinorVersionWithoutMinor" />
-        <item itemvalue="JUnit.MajorMinorVersionTest.shouldCreateMajorMinorVersionDefault" />
       </list>
     </recent_temporary>
   </component>
@@ -290,53 +298,53 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MajorMinorVersionTest_listsShouldBeEquals - 2019.03.17 at 13h 49m 41s.xml">
-      <configuration name="MajorMinorVersionTest.listsShouldBeEquals" configurationId="JUnit" />
+    <history-entry file="MajorMinorBugfixVersionTest - 2019.03.21 at 13h 34m 38s.xml">
+      <configuration name="MajorMinorBugfixVersionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorMinorVersionTest_listsShouldBeEquals - 2019.03.17 at 13h 54m 14s.xml">
-      <configuration name="MajorMinorVersionTest.listsShouldBeEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MajorMinorVersionTest - 2019.03.17 at 13h 54m 30s.xml">
+    <history-entry file="MajorMinorVersionTest - 2019.03.21 at 13h 35m 35s.xml">
       <configuration name="MajorMinorVersionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorMinorVersionTest - 2019.03.17 at 13h 59m 57s.xml">
-      <configuration name="MajorMinorVersionTest" configurationId="JUnit" />
+    <history-entry file="MajorMinorBugfixVersionTest - 2019.03.21 at 13h 36m 06s.xml">
+      <configuration name="MajorMinorBugfixVersionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorMinorVersionTest - 2019.03.17 at 14h 00m 49s.xml">
-      <configuration name="MajorMinorVersionTest" configurationId="JUnit" />
+    <history-entry file="MajorMinorBugfixVersionTest - 2019.03.21 at 13h 37m 22s.xml">
+      <configuration name="MajorMinorBugfixVersionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorMinorVersionTest - 2019.03.17 at 14h 02m 48s.xml">
-      <configuration name="MajorMinorVersionTest" configurationId="JUnit" />
+    <history-entry file="MajorMinorBugfixVersionTest_newMajorFromVersion - 2019.03.21 at 13h 42m 55s.xml">
+      <configuration name="MajorMinorBugfixVersionTest.newMajorFromVersion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorMinorVersionTest - 2019.03.18 at 13h 49m 50s.xml">
-      <configuration name="MajorMinorVersionTest" configurationId="JUnit" />
+    <history-entry file="MajorMinorBugfixVersionTest_newMajorFromVersion - 2019.03.21 at 13h 43m 41s.xml">
+      <configuration name="MajorMinorBugfixVersionTest.newMajorFromVersion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorMinorVersionTest - 2019.03.18 at 13h 50m 41s.xml">
-      <configuration name="MajorMinorVersionTest" configurationId="JUnit" />
+    <history-entry file="MajorMinorBugfixVersionTest_newMajorFromVersion - 2019.03.21 at 13h 44m 13s.xml">
+      <configuration name="MajorMinorBugfixVersionTest.newMajorFromVersion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorMinorVersionTest - 2019.03.18 at 13h 51m 27s.xml">
-      <configuration name="MajorMinorVersionTest" configurationId="JUnit" />
+    <history-entry file="MajorMinorBugfixVersionTest_newMinrFromVersion - 2019.03.21 at 13h 44m 55s.xml">
+      <configuration name="MajorMinorBugfixVersionTest.newMinrFromVersion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorMinorVersionTest - 2019.03.18 at 13h 51m 52s.xml">
-      <configuration name="MajorMinorVersionTest" configurationId="JUnit" />
+    <history-entry file="MajorMinorBugfixVersionTest_newMinrFromVersion - 2019.03.21 at 13h 45m 36s.xml">
+      <configuration name="MajorMinorBugfixVersionTest.newMinrFromVersion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorMinorBugfixVersionTest_newBugfixFromVersion - 2019.03.21 at 13h 46m 18s.xml">
+      <configuration name="MajorMinorBugfixVersionTest.newBugfixFromVersion" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.26644295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5021097" side_tool="true" visible="true" weight="0.26644295" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -384,10 +392,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/pho/versions/MajorMinorVersionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="214" column="16" selection-start-line="214" selection-start-column="16" selection-end-line="214" selection-end-column="16" />
+        <state relative-caret-position="21">
+          <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -396,36 +411,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/pho/versions/MajorMinorVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="-34">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/pho/versions/MajorMinorBugfixVersionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="139" column="63" lean-forward="true" selection-start-line="139" selection-start-column="63" selection-end-line="139" selection-end-column="63" />
           <folding>
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/pho/versions/MajorMinorBugfixVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
           <folding>
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1986#1987#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#2281#2282#0" expanded="true" />
+            <element signature="e#2305#2306#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
